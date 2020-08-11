@@ -1,0 +1,9 @@
+{
+    "name": "Translation",
+    "namespace": "ZHXCore\\Translation\\",
+    "provider": "ZHXCore\\Translation\\Providers\\TranslationServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Manage translation text"
+}

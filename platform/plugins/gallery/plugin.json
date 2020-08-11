@@ -1,0 +1,9 @@
+{
+    "name": "Gallery",
+    "namespace": "ZHXCore\\Gallery\\",
+    "provider": "ZHXCore\\Gallery\\Providers\\GalleryServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Create or easy to add gallery images to posts, pages..."
+}

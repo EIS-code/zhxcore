@@ -1,0 +1,9 @@
+{
+  "name": "Captcha",
+  "namespace": "ZHXCore\\Captcha\\",
+  "provider": "ZHXCore\\Captcha\\Providers\\CaptchaServiceProvider",
+  "author": "ZHXSCRIPT LLC",
+  "url": "https://zhxscript.com",
+  "version": "5.4",
+  "description": "Captcha for higher security"
+}

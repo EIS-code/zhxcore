@@ -1,0 +1,23 @@
+{
+    "name": "zhxcore/slug",
+    "description": "Slug/Permalink for ZHXCore CMS application",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "ZHXCore\\Slug\\": "src"
+        }
+    },
+    "require": {
+        "zhxcore/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZHXCore\\Slug\\Providers\\SlugServiceProvider"
+            ],
+            "aliases": {
+                "SlugHelper": "ZHXCore\\Slug\\Facades\\SlugHelperFacade"
+            }
+        }
+    }
+}

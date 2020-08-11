@@ -1,0 +1,79 @@
+{
+    "name": "zhxcore/platform",
+    "description": "The ZHXCore Platform based on Laravel Framework.",
+    "keywords": [
+        "zhxcore",
+        "zhxcore cms",
+        "zhxcore platform"
+    ],
+    "homepage": "https://zhxscript.com",
+    "support": {
+        "issues": "https://tickets.zhxscript.com",
+        "document": "https://docs.zhxscript.com"
+    },
+    "authors": [
+        {
+            "name": "ZHXSCRIPT LLC",
+            "email": "contact@zhxscript.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "barryvdh/laravel-dompdf": "^0.8.6",
+        "intervention/image": "^2.4",
+        "kris/laravel-form-builder": "^1.30",
+        "laravelcollective/html": "^6.1",
+        "ralouphie/mimey": "^2.0",
+        "tightenco/ziggy": "^0.9",
+        "yajra/laravel-datatables-buttons": "^4.9",
+        "yajra/laravel-datatables-oracle": "^9.9",
+        "guzzlehttp/guzzle": "^6.3",
+        "mews/purifier": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZHXCore\\Support\\": "support/src",
+            "ZHXCore\\ACL\\": "acl/src",
+            "ZHXCore\\Base\\": "base/src",
+            "ZHXCore\\Dashboard\\": "dashboard/src",
+            "ZHXCore\\Media\\": "media/src",
+            "ZHXCore\\Setting\\": "setting/src",
+            "ZHXCore\\Table\\": "table/src",
+            "ZHXCore\\JsValidation\\": "js-validation/src",
+            "ZHXCore\\Chart\\": "chart/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZHXCore\\Base\\Providers\\BaseServiceProvider",
+                "ZHXCore\\Base\\Providers\\CommandServiceProvider",
+                "ZHXCore\\Base\\Providers\\EventServiceProvider",
+                "ZHXCore\\Base\\Providers\\BreadcrumbsServiceProvider",
+                "ZHXCore\\Base\\Providers\\ComposerServiceProvider",
+                "ZHXCore\\Base\\Providers\\MailConfigServiceProvider",
+                "ZHXCore\\Base\\Providers\\FormServiceProvider",
+                "ZHXCore\\Support\\Providers\\SupportServiceProvider",
+                "ZHXCore\\Table\\Providers\\TableServiceProvider",
+                "ZHXCore\\ACL\\Providers\\AclServiceProvider",
+                "ZHXCore\\Dashboard\\Providers\\DashboardServiceProvider",
+                "ZHXCore\\Media\\Providers\\MediaServiceProvider",
+                "ZHXCore\\JsValidation\\Providers\\JsValidationServiceProvider",
+                "ZHXCore\\Chart\\Providers\\ChartServiceProvider"
+            ],
+            "aliases": {
+                "Assets": "ZHXCore\\Base\\Facades\\AssetsFacade",
+                "MetaBox": "ZHXCore\\Base\\Facades\\MetaBoxFacade",
+                "Action": "ZHXCore\\Base\\Facades\\ActionFacade",
+                "Filter": "ZHXCore\\Base\\Facades\\FilterFacade",
+                "EmailHandler": "ZHXCore\\Base\\Facades\\EmailHandlerFacade",
+                "DashboardMenu": "ZHXCore\\Base\\Facades\\DashboardMenuFacade",
+                "MailVariable": "ZHXCore\\Base\\Facades\\MailVariableFacade",
+                "Breadcrumbs": "ZHXCore\\Base\\Facades\\BreadcrumbsFacade",
+                "JsValidator": "ZHXCore\\JsValidation\\Facades\\JsValidatorFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

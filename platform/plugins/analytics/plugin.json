@@ -1,0 +1,9 @@
+{
+    "name": "Analytics",
+    "namespace": "ZHXCore\\Analytics\\",
+    "provider": "ZHXCore\\Analytics\\Providers\\AnalyticsServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Tracking data from Google Analytics"
+}

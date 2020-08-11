@@ -1,0 +1,9 @@
+{
+    "name": "Backup",
+    "namespace": "ZHXCore\\Backup\\",
+    "provider": "ZHXCore\\Backup\\Providers\\BackupServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Backup & restore database, uploads folder"
+}

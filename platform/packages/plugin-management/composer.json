@@ -1,0 +1,20 @@
+{
+    "name": "zhxcore/plugin-management",
+    "description": "Plugin management package for ZHXCore CMS application",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "ZHXCore\\PluginManagement\\": "src"
+        }
+    },
+    "require": {
+        "zhxcore/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZHXCore\\PluginManagement\\Providers\\PluginManagementServiceProvider"
+            ]
+        }
+    }
+}

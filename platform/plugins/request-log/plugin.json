@@ -1,0 +1,9 @@
+{
+    "name": "Request Log",
+    "namespace": "ZHXCore\\RequestLog\\",
+    "provider": "ZHXCore\\RequestLog\\Providers\\RequestLogServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Log error requests"
+}

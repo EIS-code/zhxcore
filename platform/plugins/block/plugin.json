@@ -1,0 +1,9 @@
+{
+    "name": "Block",
+    "namespace": "ZHXCore\\Block\\",
+    "provider": "ZHXCore\\Block\\Providers\\BlockServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Manage static block (HTML, Text) on your theme"
+}

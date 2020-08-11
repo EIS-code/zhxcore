@@ -1,0 +1,9 @@
+{
+    "name": "Social Login",
+    "namespace": "ZHXCore\\SocialLogin\\",
+    "provider": "ZHXCore\\SocialLogin\\Providers\\SocialLoginServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Social login for ZHXCore CMS"
+}

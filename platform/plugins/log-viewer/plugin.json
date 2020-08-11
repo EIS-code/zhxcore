@@ -1,0 +1,9 @@
+{
+    "name": "Log Viewer",
+    "namespace": "ZHXCore\\LogViewer\\",
+    "provider": "ZHXCore\\LogViewer\\Providers\\LogViewerServiceProvider",
+    "author": "William Troiano",
+    "url": "https://zhxscript.com",
+    "version": "5.3",
+    "description": "Provides a log viewer for ZHXCore CMS"
+}

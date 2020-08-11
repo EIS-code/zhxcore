@@ -1,0 +1,9 @@
+{
+    "name": "MaintenanceMode",
+    "namespace": "ZHXCore\\MaintenanceMode\\",
+    "provider": "ZHXCore\\MaintenanceMode\\Providers\\MaintenanceModeServiceProvider",
+    "author": "William Troiano",
+    "url": "https://zhxscript.com",
+    "version": "5.3",
+    "description": "The description for plugin maintenance_mode"
+}

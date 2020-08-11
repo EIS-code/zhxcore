@@ -1,0 +1,9 @@
+{
+    "name": "Blog",
+    "namespace": "ZHXCore\\Blog\\",
+    "provider": "ZHXCore\\Blog\\Providers\\BlogServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Manage posts, categories, tags"
+}

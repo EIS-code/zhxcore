@@ -1,0 +1,25 @@
+{
+    "name": "zhxcore/widget",
+    "description": "Widget package for ZHXCore CMS application",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "ZHXCore\\Widget\\": "src"
+        }
+    },
+    "require": {
+        "zhxcore/platform": "*@dev",
+        "zhxcore/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZHXCore\\Widget\\Providers\\WidgetServiceProvider"
+            ],
+            "aliases": {
+                "Widget": "ZHXCore\\Widget\\Facades\\WidgetFacade",
+                "WidgetGroup": "ZHXCore\\Widget\\Facades\\WidgetGroupFacade"
+            }
+        }
+    }
+}

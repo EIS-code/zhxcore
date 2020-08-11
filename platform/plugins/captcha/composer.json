@@ -1,0 +1,15 @@
+{
+  "name": "zhxcore/captcha",
+  "description": "Captcha plugin",
+  "homepage": "https://zhxscript.com",
+  "authors": [
+    {
+      "name": "ZHXSCRIPT LLC",
+      "email": "minhsang2603@gmail.com",
+      "homepage": "https://zhxscript.com"
+    }
+  ],
+  "require": {
+    "google/recaptcha": "^1.2"
+  }
+}

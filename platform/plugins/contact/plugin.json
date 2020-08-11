@@ -1,0 +1,9 @@
+{
+    "name": "Contact Form",
+    "namespace": "ZHXCore\\Contact\\",
+    "provider": "ZHXCore\\Contact\\Providers\\ContactServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Contact Form"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Custom Fields",
+    "namespace": "ZHXCore\\CustomField\\",
+    "provider": "ZHXCore\\CustomField\\Providers\\CustomFieldServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Custom Fields"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Language",
+    "namespace": "ZHXCore\\Language\\",
+    "provider": "ZHXCore\\Language\\Providers\\LanguageServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.5",
+    "description": "Multilingual for ZHXCore CMS"
+}

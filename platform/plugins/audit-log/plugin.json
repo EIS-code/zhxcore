@@ -1,0 +1,9 @@
+{
+    "name": "Audit Log",
+    "namespace": "ZHXCore\\AuditLog\\",
+    "provider": "ZHXCore\\AuditLog\\Providers\\AuditLogServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Record activities logs"
+}

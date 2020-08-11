@@ -1,0 +1,17 @@
+.idea
+/platform/themes/newstv/
+/platform/themes/ripple/
+/platform/core/VERSION_PRIVATE
+/platform/packages/dev-tool/
+/platform/packages/git-commit-checker/
+/platform/packages/plugin-generator/
+/platform/packages/theme-generator/
+/platform/packages/widget-generator/
+/resources/lang/vi/
+/public/themes/newstv/
+/public/themes/ripple/
+/.env
+/_ide_helper.php
+/vendor
+/.npmrc
+/node_modules

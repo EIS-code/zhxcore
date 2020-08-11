@@ -1,0 +1,9 @@
+{
+    "name": "Cookie Consent",
+    "namespace": "ZHXCore\\CookieConsent\\",
+    "provider": "ZHXCore\\CookieConsent\\Providers\\CookieConsentServiceProvider",
+    "author": "ZHXSCRIPT LLC",
+    "url": "https://zhxscript.com",
+    "version": "5.4",
+    "description": "Cookie Consent"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "zhxcore/theme",
+    "description": "Theme package for ZHXCore CMS application",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "ZHXCore\\Theme\\": "src"
+        }
+    },
+    "require": {
+        "zhxcore/platform": "*@dev",
+        "zhxcore/sitemap": "*@dev",
+        "zhxcore/widget": "*@dev",
+        "zhxcore/slug": "*@dev",
+        "zhxcore/seo-helper": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZHXCore\\Theme\\Providers\\ThemeServiceProvider",
+                "ZHXCore\\Theme\\Providers\\RouteServiceProvider"
+            ],
+            "aliases": {
+                "Theme": "ZHXCore\\Theme\\Facades\\ThemeFacade",
+                "ThemeOption": "ZHXCore\\Theme\\Facades\\ThemeOptionFacade",
+                "ThemeManager": "ZHXCore\\Theme\\Facades\\ManagerFacade",
+                "AdminBar": "ZHXCore\\Theme\\Facades\\AdminBarFacade",
+                "SiteMapManager": "ZHXCore\\Theme\\Facades\\SiteMapManagerFacade"
+            }
+        }
+    }
+}
